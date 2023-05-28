@@ -1,4 +1,3 @@
-import React, { ChangeEventHandler } from "react";
 import { Container, Button, Input, Wrapper } from "./styles";
 import { BsTag } from "react-icons/bs";
 import { MdOutlineClose } from "react-icons/md";

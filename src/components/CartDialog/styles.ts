@@ -86,6 +86,12 @@ export const ListInfoFooter = styled.footer`
   align-items: center;
   width: 100%;
   justify-content: space-between;
+
+  @media (max-width: 800px) {
+    align-items: flex-start;
+    gap: 4px;
+    flex-direction: column;
+  }
 `;
 
 export const Price = styled.span`
