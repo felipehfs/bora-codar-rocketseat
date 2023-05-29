@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import Cartdialog from ".";
 import { faker } from "@faker-js/faker";
+import { Product } from "../../models/product";
 
 const items: Product[] = [
   {
