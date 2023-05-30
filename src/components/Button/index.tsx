@@ -9,7 +9,11 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 export default function Button({ children, loading, ...rest }: ButtonProps) {
   return (
     <Container {...rest}>
-      {loading ? <ClipLoader color="#fff" size={18} /> : children}
+      {loading ? (
+        <ClipLoader color="#fff" aria-label="loading" size={18} />
+      ) : (
+        children
+      )}
     </Container>
   );
 }
